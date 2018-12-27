@@ -1,0 +1,594 @@
+/* Global CSS Reset */
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+a {
+  text-decoration: none;
+}
+
+
+/* Banner CSS Styling */
+#outer-banner {
+  background: linear-gradient(90deg,#000 30%,transparent 50%),linear-gradient(180deg,#000 0,#363738);
+}
+
+#inner-banner {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#inner-banner ul {
+  font-weight: 400;
+  font-size: 11px;
+  margin-bottom: 1.1%;
+  margin-top: 0.7%;
+}
+
+#inner-banner ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#inner-banner ul li a {
+  color: #c8cbcc;
+  text-decoration: none;
+  align-items: center;
+  padding: 0 10px;
+}
+
+#inner-banner ul li a.banner-link-border {
+  border-right: 1px solid #c8cbcc;
+}
+
+#inner-banner ul li a#banner-newsletter {
+  font-weight: bold;
+  color: white;
+}
+
+#inner-banner ul li a#banner-newsletter:hover {
+  background: #c8cbcc;
+  color: black;
+}
+
+#inner-banner ul li a .fa-user {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+/* Navbar CSS Styling*/
+
+#navbar {
+  background-color: black;
+  display: flex;
+}
+
+#navbar a.logo{
+  width: 6%;
+  margin-left: 7%;
+  margin-bottom: .4%;
+}
+
+#navbar a.logo img#nav-img {
+  width: 100%;
+}
+
+ul#navbar-list {
+  display: flex;
+  margin-top: 2.8%;
+  margin-left: 1%;
+}
+
+ul#navbar-list li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+ul#navbar-list li a.nav-border-right {
+  border-right: 1px solid #c8cbcc;
+}
+
+.nav-search-bag {
+  display: flex;
+  margin-left: 32%;
+  margin-top: .5%;
+}
+
+.nav-search-bag .search {
+  position: relative;
+  padding: 8px 30px;
+  height: 100%;
+  margin-left: 8%;
+}
+
+.nav-search-bag .search input {
+  text-indent: 30px;
+  height: 90%;
+  color: #c8cbcc;
+  width: 102%;
+}
+
+.nav-search-bag .search .fa-search {
+  position: absolute;
+  left: 35px;
+  top: 18.5px;
+  font-size: 20px;
+}
+
+.nav-search-bag .fa-shopping-bag {
+  color: white;
+  font-size: 20px;
+  margin-top: 100%;
+}
+
+
+/* Container CSS Styling */
+
+.grid-container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+/* Alphatype CSS Styling */
+.alphatype-container {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-image: url("https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ALPHATYPE_NMD_HIGH_dt_tcm221-314944.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#alphatype-section {
+  padding: 14%;
+}
+
+#alphatype-section h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#alphatype-section p {
+  color: white;
+  font-weight: bold;
+  margin-top: 2%;
+  line-height: 1.3;
+}
+
+.white-button{
+	-moz-box-shadow: 3px 4px 0px 0px #e3e3e3;
+	-webkit-box-shadow: 3px 4px 0px 0px #e3e3e3;
+	box-shadow: 3px 4px 0px 0px #e3e3e3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #dbdbdb;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000d1a;
+  margin-top: 1em;
+}
+
+.white-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color:#ffffff;
+}
+
+.white-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+#alphatype-section button a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Tiro CSS Styling */
+
+.tiro-container {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-image: url("https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/tiro-desktop_tcm221-315546.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 25px;
+}
+
+#tiro-section {
+  padding: 39% 27% 7% 25%;
+}
+
+#tiro-section h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+#tiro-section p {
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#tiro-section a.white-button {
+  margin-left: 17%;
+}
+
+/* Falcon CSS Styling */
+
+.falcon-container {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  background-image: url("https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/originals-ss19-falcon-hp-tc-15th-dec-d_tcm221-310752.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 25px;
+}
+
+#falcon-section {
+  padding: 43% 27% 0% 25%;
+}
+
+#falcon-section h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+#falcon-section a.white-button {
+  margin-left: 19%;
+}
+
+/* End Of Season Sale CSS Styling*/
+
+.end-of-season-container {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-image: url('https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/D2_1920x800_tcm221-315853.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#end-of-season-section h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#end-of-season-section p {
+  margin-top: 1.5%;
+}
+
+#end-of-season-section {
+   padding: 12% 30% 13% 12%;
+}
+
+.black-button {
+  -moz-box-shadow: 3px 4px 0px 0px #030303;
+	-webkit-box-shadow: 3px 4px 0px 0px #030303;
+	box-shadow: 3px 4px 0px 0px #030303;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, black), color-stop(1, black));
+	background:-moz-linear-gradient(top, black 5%, black 100%);
+	background:-webkit-linear-gradient(top, black 5%, black 100%);
+	background:-o-linear-gradient(top, black 5%, black 100%);
+	background:-ms-linear-gradient(top, black 5%, black 100%);
+	background:linear-gradient(to bottom, black 5%, black 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+	background-color: black;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #030303;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #030303;
+  margin-top: 1em;
+}
+
+.end-of-season-buttons {
+  display: inline-grid;
+}
+
+.black-button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, black), color-stop(1, black));
+  background:-moz-linear-gradient(top, black 5%, black 100%);
+  background:-webkit-linear-gradient(top, black 5%, black 100%);
+  background:-o-linear-gradient(top, black 5%, black 100%);
+  background:-ms-linear-gradient(top, black 5%, black 100%);
+  background:linear-gradient(to bottom, black 5%, black 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0);
+  background-color: black;
+}
+
+.black-button:active {
+  position:relative;
+	top:1px;
+}
+
+/* Ultraboost CSS Styling */
+
+.ultraboost-container {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-image: url('https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/LADY_LIBERTY_TEASER_DT_tcm221-315562.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 25px;
+}
+
+.ultraboost-section {
+  padding: 53% 27% 7% 25%;
+  text-align: center;
+}
+
+.ultraboost-section h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* Kitty Cash CSS Styling */
+
+.kitty-cash-container {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  background-image: url('https://images.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ShoptheLook_Onsite_NYC_Kitty_Teaser_Large_NYC_Ally_Look_2_Desktop_tcm221-315854.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 25px;
+}
+
+.kitty-cash-section {
+  padding: 53% 24% 7% 24%;
+  text-align: center;
+  color: white;
+}
+
+.kitty-cash-section h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* What's Trending CSS Styling */
+
+.whats-trending-container {
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.whats-trending-section h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 9% 0% 9%;
+}
+
+.product-card:hover {
+  border: 1px solid #D8DBDC;
+}
+
+.card-sale {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1% 1%;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.1em;
+  position: absolute;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-transform: translate(-100%) rotate(270deg);
+  transform: translate(-100%) rotate(270deg);
+  -webkit-transform-origin: right top;
+  transform-origin: right top;
+}
+
+.far.fa-heart {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  padding: 1% 0% 0% 17%
+}
+
+.product-description {
+  padding: 0% 0% 0% 5%;
+}
+
+.product-description p {
+    font-size: 12px;
+    color: #98989a;
+    margin-top: .4rem;
+}
+
+.product-name {
+  letter-spacing: .5px;
+  font-size: 12px;
+  color: #464646;
+  margin-top: 5%;
+}
+
+.product-price {
+  margin-top: 3%;
+  font-size: 12px;
+  color: #EA5F5B;
+}
+
+.product-price strike {
+  color: #98989a;
+  margin-left: 1%;
+}
+
+.product-stars {
+  color: #98989a;
+  display: flex;
+  align-items: flex-start;
+  font-size: 10px;
+  margin-top: 10%;
+}
+
+.fas.fa-star, .fas.fa-star-half-alt {
+  color: black;
+}
+
+
+
+.product-review-count {
+  font-size: 12px;
+  line-height: 1;
+  padding-left: 5px
+}
+
+/* Creators Club CSS Styling */
+
+.creators-club-container {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-color: #ede734;
+  padding: 3% 9% 3% 9%;
+}
+
+.creators-club-section {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.creators-club-section h1 span {
+  color: #00A957;
+}
+
+.creators-club-email {
+  display: flex;
+  padding: 0% 10% 0% 20%;
+}
+
+.creators-club-email input {
+  font-weight: 400;
+  font-size: 16px;
+  color: #98989a;
+  border: 1px solid #98989a;
+  width: 100%;
+  height: 65%;
+  padding: 5%;
+}
+
+.creators-club-section .fas.fa-arrow-right {
+  background: black;
+  color: white;
+  padding: 11% 8% 0% 7%;
+  height: 65%;
+}
+
+/* Footer CSS Styling */
+
+.footer-container {
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3% 3% 3% 3%;
+}
+
+.footer-content ul {
+  list-style-type: none;
+}
+
+.footer-content ul h2 {
+  font-weight: bold;
+}
+
+.footer-content ul a {
+  color: black;
+  display: block;
+  line-height: 23px;
+  font-size: 13px;
+}
+
+.footer-banner {
+  border-top: 1px solid #616363;
+  color: hsla(0,0%,100%,.6);
+  background-color: #363738;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1% 1% 1% 1%;
+}
+
+.footer-us {
+  display: flex;
+  font-size: 12px;
+}
+
+.footer-us img {
+  width: 15px;
+  height: 11px;
+  margin-right: 8px;
+}
+
+.footer-banner-links {
+  display: flex;
+}
+
+.footer-banner-links span {
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.footer-banner-links ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-banner-links ul li a {
+  color: hsla(0,0%,100%,.6);
+  font-size: 12px;
+}
