@@ -6,7 +6,6 @@ a {
   text-decoration: none;
 }
 
-
 /* Banner CSS Styling */
 #outer-banner {
   background: linear-gradient(90deg,#000 30%,transparent 50%),linear-gradient(180deg,#000 0,#363738);
@@ -90,6 +89,14 @@ ul#navbar-list li a {
 
 ul#navbar-list li a.nav-border-right {
   border-right: 1px solid #c8cbcc;
+}
+
+.dropdown-menu-men {
+  display: none;
+}
+
+.dropdown-menu-women {
+  display: none;
 }
 
 .nav-search-bag {
@@ -522,7 +529,7 @@ ul#navbar-list li a.nav-border-right {
 .creators-club-section .fas.fa-arrow-right {
   background: black;
   color: white;
-  padding: 11% 8% 0% 7%;
+  padding: 6% 8% 0% 7%;
   height: 65%;
 }
 
